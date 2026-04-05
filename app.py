@@ -63,7 +63,7 @@ def load_dictionaries():
         for row in csv.reader(csv_file):
             description_list[row[0]] = row[1]
             
-    with open('MasterData/symptom_severity.csv') as csv_file:
+    with open('MasterData/Symptom_severity.csv') as csv_file:
         for row in csv.reader(csv_file):
             try: severityDictionary[row[0]] = int(row[1])
             except: pass
