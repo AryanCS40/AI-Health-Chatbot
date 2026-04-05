@@ -230,7 +230,7 @@ with st.sidebar:
         except: pass
     st.divider()
     # 🟢 NAYA NAAM YAHAN (Sidebar Caption)
-    st.caption("AI Symptom Checker v2.0\nDeveloped by Akash & Aashu")
+    st.caption("AI Symptom Checker v2.0\nDeveloped by Aryan")
 
 # 🟢 NAYA NAAM YAHAN (Main Title)
 st.title("🤖 AI Symptom Checker")
